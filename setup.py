@@ -10,5 +10,5 @@ setup(
     version=__version__,
     license='MPL-2.0',
     description='Configurable and easy extendable python logger.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
