@@ -1,6 +1,6 @@
 import unittest
-from pylogger.formatters.level import get_log_level_formatter
-from pylogger.log_level import LogLevel
+from pylogging.formatters.level import get_log_level_formatter
+from pylogging.log_level import LogLevel
 
 
 class TestLevel(unittest.TestCase):

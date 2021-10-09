@@ -1,7 +1,7 @@
-from pylogger.formatters.level import get_log_level_formatter
-from pylogger.formatters.scope import get_scope
-from pylogger.formatters.list import format_list
-from pylogger.formatters.dictionary import format_dict
+from pylogging.formatters.level import get_log_level_formatter
+from pylogging.formatters.scope import get_scope
+from pylogging.formatters.list import format_list
+from pylogging.formatters.dictionary import format_dict
 
 
 class Logger:

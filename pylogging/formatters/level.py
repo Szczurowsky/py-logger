@@ -1,4 +1,4 @@
-from pylogger.log_level import LogLevel, LogLevelError
+from pylogging.log_level import LogLevel, LogLevelError
 
 
 def get_log_level_formatter(log_level: LogLevel) -> str:

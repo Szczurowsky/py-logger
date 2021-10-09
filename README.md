@@ -1,5 +1,5 @@
 <div align="center">
-<h1>py-logger</h1>
+<h1>py-logging</h1>
 <h4>Configurable and easy extendable python logger</h4>
 <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="Build with python">
 <img src="https://forthebadge.com/images/badges/it-works-why.svg" alt="That works?">
@@ -9,13 +9,14 @@
 
 | Branch  | Tests | Code Quality |
 |--------|-------|--------------|
-| master  | [![buddy pipeline](https://app.buddy.works/kamilszczurowski/py-logger/pipelines/pipeline/352788/badge.svg?token=6dda2c8e079657e0791becb1d6378b1339e08c37c5051d3ee2a5509352835489 "buddy pipeline")](https://app.buddy.works/kamilszczurowski/py-logger/pipelines/pipeline/352788) | ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/szczurowsky/py-logger/master?style=for-the-badge) |
+| master  | [![buddy pipeline](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352788/badge.svg?token=6dda2c8e079657e0791becb1d6378b1339e08c37c5051d3ee2a5509352835489 "buddy pipeline")](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352788) | ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/szczurowsky/py-logging/master?style=for-the-badge) |
 
 ## Usage
 ### Basic
+
 ```python
-from pylogger.logger import Logger
-from pylogger.log_level import LogLevel
+from pylogging.logger import Logger
+from pylogging.log_level import LogLevel
 
 logger = Logger()
 
@@ -30,8 +31,8 @@ logger.log(LogLevel.ERROR, "The plague of rats in the server room")
 <summary>Scope</summary>
 
 ```python
-from pylogger.logger import Logger
-from pylogger.log_level import LogLevel
+from pylogging.logger import Logger
+from pylogging.log_level import LogLevel
 
 logger = Logger()
 logger.set_options({"scope": True})
@@ -47,8 +48,8 @@ logger.log(LogLevel.ERROR, "Cannot connect to host")
 <summary>List</summary>
 
 ```python
-from pylogger.logger import Logger
-from pylogger.log_level import LogLevel
+from pylogging.logger import Logger
+from pylogging.log_level import LogLevel
 
 logger = Logger()
 
@@ -62,12 +63,12 @@ logger.log(LogLevel.INFO, ["List", "List"])
 <summary>Dictionary</summary>
 
 ```python
-from pylogger.logger import Logger
-from pylogger.log_level import LogLevel
+from pylogging.logger import Logger
+from pylogging.log_level import LogLevel
 
 logger = Logger()
 
-logger.log(LogLevel.INFO, {"1":"Value1", "2":"Value2"})
+logger.log(LogLevel.INFO, {"1": "Value1", "2": "Value2"})
 
 ```
 <img alt="showcase" src="https://i.imgur.com/ved6NSs.png">

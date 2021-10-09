@@ -1,12 +1,12 @@
 from setuptools import setup
-from pylogger import __version__
+from pylogging import __version__
 
 setup(
-    name='py-logger',
-    url='https://github.com/Szczurowsky/py-loggerr',
+    name='py-logging',
+    url='https://github.com/Szczurowsky/py-loggingr',
     author='Kamil Szczurowski',
     author_email='kamil@szczurowsky.pl',
-    packages=['pylogger'],
+    packages=['pylogging'],
     version=__version__,
     license='MPL-2.0',
     description='Configurable and easy extendable python logger.',
