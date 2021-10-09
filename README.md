@@ -9,7 +9,7 @@
 
 | Branch  | Tests | Code Quality |
 |--------|-------|--------------|
-| master  | [![buddy pipeline](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352788/badge.svg?token=6dda2c8e079657e0791becb1d6378b1339e08c37c5051d3ee2a5509352835489 "buddy pipeline")](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352788) | ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/szczurowsky/py-logging/master?style=for-the-badge) |
+| master  | [![buddy pipeline](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352790/badge.svg?token=6dda2c8e079657e0791becb1d6378b1339e08c37c5051d3ee2a5509352835489 "buddy pipeline")](https://app.buddy.works/kamilszczurowski/py-logging/pipelines/pipeline/352790) | ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/szczurowsky/py-logging/master?style=for-the-badge) |
 
 ## Usage
 ### Basic
