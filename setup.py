@@ -3,7 +3,7 @@ from pylogging import __version__
 
 setup(
     name='py-logging',
-    url='https://github.com/Szczurowsky/py-loggingr',
+    url='https://github.com/Szczurowsky/py-logging',
     author='Kamil Szczurowski',
     author_email='kamil@szczurowsky.pl',
     packages=['pylogging'],
