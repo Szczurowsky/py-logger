@@ -17,13 +17,12 @@ class Logger:
         if self.scope:
             final_string += get_scope()
         final_string += get_log_level_formatter(level)
-        if type(content) is not list and type(content) is not dict:
-            print(final_string + str(content))
-            return
-        elif type(content) is list:
+        if type(content) is list:
             print(final_string + "List:")
             format_list(content)
         elif type(content) is dict:
             print(final_string + "Dictionary:")
             format_dict(content)
-
+        else:
+            print(final_string + str(content))
+            return
